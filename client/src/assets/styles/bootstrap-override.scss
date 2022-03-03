@@ -1,0 +1,17 @@
+// [IMPORT] Personal //
+@import './sass-variables.scss';
+
+
+// [BOOTSTRAP-COLORS] //
+$theme-colors: (
+	'primary': $fpi247,
+);
+
+
+// [IMPORT] //
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+
+// [CONTAINER] //
+@media (min-width: 1600px) { .container { max-width: 1500px; } }
